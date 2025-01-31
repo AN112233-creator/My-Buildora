@@ -1,0 +1,247 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+  --primary-color: #4f9edb;
+  --secondary-color: #2ecc71;
+  --font-family: "Roboto Condensed", serif;
+  --font-size: 14px;
+  --background-color: #f5f5f5;
+  --text-color: #bebebe;
+  --HOVER-Color: rgb(212, 212, 212);
+}
+
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 40px;
+  font-family: var(--font-family);
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+   margin-left: 340px; 
+  margin-right: 0px;
+}
+
+nav ul li{
+  list-style-type: none;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--text-color) ;
+  text-transform: uppercase;
+  font-size: var(--font-size);
+  letter-spacing: 2px;
+  
+}
+nav ul li a:hover {
+  color: var(--HOVER-Color) ;
+}
+
+
+.logo{
+  font-size: 1.4rem;
+  display: flex;
+}
+
+.logo img{
+  width: 70px;
+  height: 70px;
+}
+
+.logo-text{
+  font-size: 16px;
+  width: 8ch;
+  text-transform: uppercase;
+  margin-top: 14px;
+}
+
+.icons{
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.menu-icon{
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  cursor: pointer;
+  
+}
+.menu-icon div {
+  width: 80%;
+  height: 0.1px;
+  border: 1px solid black;
+ 
+}
+.links{
+  width: 35px;
+  height: 35px;
+  border: 1px solid black;
+  display: grid;
+  place-content: center;
+  margin-top: -10px;
+  cursor: pointer;
+  
+}
+
+main{
+  text-align: center;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: var(--font-family);
+  justify-content: center;
+  align-items: center;
+}
+
+.kumasi{
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.multi{
+ 
+  font-size: 1rem;
+ 
+}
+
+.custom-button {
+   width: 100px;
+  height: 40px; 
+   position: relative; 
+  background: transparent;
+  color: rgb(122, 104, 104);
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid rgb(51, 35, 35);
+  padding: 20px 80px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; 
+  display: flex;
+  justify-self: center;
+ 
+}
+
+.custom-button .line {
+  position: absolute;
+  width: 20px; /* Line length */
+  height: 2px; /* Line thickness */
+  background-color: rgb(77, 70, 70);
+}
+
+.custom-button .left {
+  left: -10px;
+  transition: left 0.3s ease-in-out;
+}
+
+.custom-button .right {
+  right: -10px;
+  transition: right 0.3s ease-in-out;
+}
+
+/* On hover effect */
+.custom-button:hover .left {
+  left: 140px;
+  
+}
+
+.custom-button:hover .right {
+right:140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+  nav{
+
+    justify-content: space-between;
+       
+  }
+
+  img {
+    width:50px ;
+    height:50px ;
+  }
+
+  .logo-text{
+    font-size: 12px;
+    margin-top: 20px;
+  }
+
+  .menu-icon{
+    display: flex;
+  }
+
+  nav ul {
+     margin-left: 0px; 
+  }
+
+
+
+
+  ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: rgb(199, 165, 165);
+    list-style: none;
+    padding: 0px;
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    transform: translateY(-100%); 
+    opacity: 0;
+    pointer-events: none; 
+    flex-direction: column;
+    text-align: center;
+    gap: 70px;
+    margin-left: 0px;
+  } 
+
+  ul.open {
+    transform: translateY(0); 
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+
+}
