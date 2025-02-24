@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import './Home.css' 
 import  logo from './assets/Logos/LOGO.png'
 
@@ -16,10 +17,10 @@ import TestimonialSlider from './Slider/Slider.jsx'
 function Home (){
 
 
-  const year = new Date().getFullYear()
+  const year = new Date().getFullYear();
  
 
-          const [isOpen, setIsOpen] = useState(false)
+          const [isOpen, setIsOpen] = useState(false);
 
           const toggleMenu = () => {
             setIsOpen(!isOpen)
@@ -44,6 +45,16 @@ function Home (){
             };
           }, []);
 
+         
+          const [isHover, setIsHover] = useState(false)
+
+          const handleMouseEnter = () => {
+            setIsHover(true);  
+          };
+          const handleMouseLeave = () => {
+            setIsHover(false);  
+          };
+
 
 
 
@@ -51,23 +62,27 @@ function Home (){
     <>
     
       <div className="landing-page"> 
-      <div className="page">
+      <div className="Landing-page">
       <nav className={isOpen ? "nav-active" : ""} id='navbar'>
 
-          <a href="Home.jsx" className='logo-link'>
+          <a href="Home" className='logo-link'>
         <div className='logo' >
           <img src={logo} alt="LoGo" />
           <p className={`logo-text ${isOpen ? "active" : ""}`}>Buildora Construction</p>
         </div>
         </a>
         <ul className={isOpen ? "open" : ""}>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contact us</a></li>
-          <li><a href="#">Blog</a></li>
+          <li><Link to = "/" className='active'> Home</Link></li>
+          <li> <Link to = "/about"  className= {`${isHover ? "" : ""}`} 
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}>About Us</Link></li>
+              <div  className= {`team ${isHover ? "OurTeam" : ""}`} onMouseEnter={handleMouseEnter}  onMouseLeave={handleMouseLeave}>Our Team</div>
+          <li><Link to = "/projects">Projects</Link></li>
+          <li><Link to = "/services">Services</Link></li>
+          <li><Link to = "/clients">Clients</Link></li>
+          <li><Link to = "/contacts">Contact us</Link></li>
+          <li><Link to = "/blogs">Blog</Link></li>
+          
         </ul>
 
         <div className="icons">
@@ -88,7 +103,7 @@ function Home (){
     
       <main>
       <h4 className='kumasi'>Kumasi, ghana</h4>
-      <p className='multi'>Mutlipurpose lecture halls, KNUST</p>
+      <p className='multi'>Mutlipurpose lecture halls, KNUST Constructed by BUILDORA</p>
       <button  className= {`custom-button ${isOpen ? "no-display" : ""}`}>
         <span className='line left'></span>
         explore 
@@ -98,14 +113,14 @@ function Home (){
      </div> 
      <section className='section-one'>
           <div className="experience-box">
-            <span className="number">100</span>
+            <span className="number">40</span>
             <span className="text">YEARS OF EXPERIENCE</span>
           </div>
 
           <div className="small-about">
             <p className='About'>ABOUT US</p>
             <h4 className='who-we-are'>Who we are</h4>
-            <p className="main-text">Buildora Construction has a good history of over 100 years in the construction industry in Ghana in diverse areas of infrastructure development.Buildora Construction is today one of the largest contractors in Ghana. We have successfully completed some of the most challenging infrastructure projects in the country and hoping to cross over through West Africa.</p>
+            <p className="main-text">Buildora Construction has a good history of over 40 years in the construction industry in Ghana in diverse areas of infrastructure development.Buildora Construction is today one of the largest contractors in Ghana. We have successfully completed some of the most challenging infrastructure projects in the country and hoping to cross over through West Africa.</p>
            <p className="sapce-up"> Buildora Construction undertakes both government and private sector contracts, and has set high standards in meeting the special needs and demands of every project.</p>
           </div>
       </section>
@@ -128,7 +143,7 @@ function Home (){
           </div>
          
          <div className="image-one">
-          <img   src={firstImage} alt="our projects" width= "600" height= "400"/>
+          <img  className='img'  src={firstImage} alt="our projects" width= "600" height= "400"/>
           </div>
         </div>
       </section>
