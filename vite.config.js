@@ -7,7 +7,7 @@ import react from '@vitejs/plugin-react'
 }) */
 
 export default defineConfig({
-  base: "/BuilDoR-Project/", // Replace with your actual GitHub repo name
+  base: "/My-Buildora/", // Replace with your actual GitHub repo name
   plugins: [react()],
 });
 
