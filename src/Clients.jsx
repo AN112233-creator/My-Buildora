@@ -73,7 +73,9 @@ function Clients (){
                <li> <Link to = "/about"  className= 'nav-items'
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}>About Us</Link></li>
-                <div  className= {`team ${isHover ? "OurTeam" : ""}`} onMouseEnter={handleMouseEnter}  onMouseLeave={handleMouseLeave}>Our Team</div>
+               {/*  <div  className= {`team ${isHover ? "OurTeam" : ""}`} onMouseEnter={handleMouseEnter}  onMouseLeave={handleMouseLeave}>Our Team</div> */}
+               <li  className= {`team ${isHover ? "OurTeam" : ""}`} onMouseEnter={handleMouseEnter}  onMouseLeave={handleMouseLeave}><Link> Our Team</Link></li>
+               <li className='show-small'><Link> Our Team</Link></li>
                <li > <Link to = "/projects" className='nav-items'>Projects</Link></li>
                <li ><Link to = "/services" className='nav-items'>Services</Link></li>
                <li ><Link to = "/clients" className='active-client nav-items'>Clients</Link></li>

@@ -78,7 +78,9 @@ function Services (){
               <li> <Link to = "/about"  className= {`${isHover ? "" : ""}`} 
                onMouseEnter={handleMouseEnter}
                onMouseLeave={handleMouseLeave}>About Us</Link></li>
-               <div  className= {`team ${isHover ? "OurTeam" : ""}`} onMouseEnter={handleMouseEnter}  onMouseLeave={handleMouseLeave}>Our Team</div>
+              {/*  <div  className= {`team ${isHover ? "OurTeam" : ""}`} onMouseEnter={handleMouseEnter}  onMouseLeave={handleMouseLeave}>Our Team</div> */}
+              <li  className= {`team ${isHover ? "OurTeam" : ""}`} onMouseEnter={handleMouseEnter}  onMouseLeave={handleMouseLeave}><Link> Our Team</Link></li>
+              <li className='show-small'><Link> Our Team</Link></li>
               <li><Link to = "/projects">Projects</Link></li>
               <li><Link to = "/services" className='active'>Services</Link></li>
               <li><Link to = "/clients">Clients</Link></li>
