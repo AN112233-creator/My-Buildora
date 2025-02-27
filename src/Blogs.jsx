@@ -108,26 +108,6 @@ function Blog (){
         <h2 className="main-text">We have worked with great people.</h2> */}
     </div>  
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat ea culpa odio placeat, ex iure consectetur quam, ipsa laudantium porro ab neque incidunt earum veniam quia atque illum sapiente tempore?</p>
 
   </>
   
