@@ -16,9 +16,8 @@
 }
 
 .team{
-  position: absolute;
+   position: absolute;
       top: 70px;
-     /*  left: 627px;  */
       width: 140px;
       height: 40px;
       background: var(--Nav-active);
@@ -27,30 +26,34 @@
       padding: 8px 10px;
       transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
       transform: translateY(-100%); 
-      opacity: 0; 
+       opacity: 0;  
       pointer-events: none; 
-      /* flex-direction: column; */
-      /* text-align: center; */
       justify-content: flex-start;
-      gap: 70px;
       margin-left: 0px;
       cursor: pointer;
       border-radius: 0px;
-      text-transform: uppercase;
-      
-   
-      
+      text-transform: uppercase;   
 }
 
-.OurTeam{ 
+
+
+ .OurTeam{ 
   top: 60px;
  transform: translateY(0); 
       opacity: 1;
       pointer-events: auto;
-}
+     
+     
+} 
+
 .OurTeam:hover{ 
   color: var(--HOVER-Color);
   transition: 0.9s ease;
+}
+
+.show-small{
+  display: none; 
+ 
 }
 
 
@@ -106,13 +109,13 @@
      top: 0; */
   }
   
-   nav ul {
+    nav ul {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     margin-top: 30px;
      margin-left: 340px; 
     margin-right: 0px;
-  } 
+  }  
   
   nav ul li{
     list-style-type: none;
@@ -591,6 +594,24 @@ margin-top: 150px;
       opacity: 1;
       pointer-events: auto;
     }
+
+    .show-small{
+      display: flex; 
+      text-align: center;
+      justify-content: center;
+     
+    }
+
+    .team{
+  display: none;
+        
+   }
+
+   .OurTeam{ 
+   display: none;
+       
+       
+  } 
 
     .we-are-based{
       font-size: 2rem;
