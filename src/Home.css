@@ -576,7 +576,6 @@ line-height: 20px;
  }
 
  .copy-right{
- 
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -585,10 +584,6 @@ line-height: 20px;
  .footer-socials {
   display: flex;
   gap: 10px;
-
- /* */
-
- /*  padding: 10px 100px; */
 
  }
  .footer-socials img{
@@ -749,14 +744,24 @@ line-height: 20px;
    
   
   }
+  footer{
+    padding: 100px 100px;
+    
+    
+  }
 
   .footer{
     flex-direction: column;
     
+    
   }
 
-   .copy-right{
+   .footer-socials {
+    justify-content: center;
+  
+   }
  
+   .copy-right{
     flex-direction: column;
    }
   

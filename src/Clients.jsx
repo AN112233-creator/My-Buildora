@@ -8,6 +8,12 @@ import  facebook from './assets/Logos/facebook-logo.png'
 import  twitter from './assets/Logos/x-logo.png'
 import  instagram from './assets/Logos/instagram-logo.png'
  import  google from './assets/Logos/google-plus.png' 
+ 
+ import knustLogo from './assets/Logos/knust-logo.png';
+ import goilLogo from './assets/Logos/goil-logo.png';
+ import stuLogo from './assets/Logos/stu-logo.png'; 
+ import gctuLogo from './assets/Logos/gctu-logo.jpg'; 
+ 
 
 function Clients (){
 
@@ -99,14 +105,126 @@ function Clients (){
             <span>L</span>
             <span>E</span>
         </div> */}  
-            <svg class="background-text">
-            <text  x="50%" y="50%" text-anchor="middle">PEOPLE</text>
+            <svg className="background-text">
+            <text  x="50%" y="50%" textAnchor="middle">PEOPLE</text>
         </svg> 
         <p className='Ambitious'>AMBITIOUS CLIENTS</p>
         <h2 className='work-with'>We have worked with great people.</h2>
-       {/*  <p className="subheading">AMBITIOUS CLIENTS</p>
-        <h2 className="main-text">We have worked with great people.</h2> */}
-    </div>  
+    </div> 
+ <div className="parent">
+  <a href="https://www.knust.edu.gh/" target="_blank">
+    <div className="div1">
+     <img src={knustLogo} alt="" className='our-client' loading='lazy'/>
+      <div className="overlay">
+            <div className="overlay-text">
+          <p className='visit-client-site'>VISIT SITE</p> 
+          <p  className='site-visit-arrow'>&#8594;</p> 
+            </div>
+           </div> 
+    </div>
+    </a>
+    <a href="https://www.goil.com.gh/" target="_blank">
+    <div className="div2">
+      <img src={goilLogo} alt="" className='our-client' loading='lazy'/>
+      <div className="overlay">
+            <div className="overlay-text">
+            <p className='visit-client-site'>VISIT SITE</p> 
+            <p  className='site-visit-arrow'>&#8594;</p>
+            </div>
+           </div> 
+    </div>
+    </a>
+    <a href="https://stu.edu.gh/"  target="_blank">
+    <div className="div3">
+      <img src={stuLogo} alt=""className='our-client' loading='lazy'/>
+      <div className="overlay">
+            <div className="overlay-text">
+            <p className='visit-client-site'>VISIT SITE</p> 
+            <p  className='site-visit-arrow'>&#8594;</p>
+            </div>
+           </div> 
+    </div>
+   
+    </a>
+    <a href="https://site.gctu.edu.gh/" target="_blank" >
+    <div className="div4">
+      <img src={gctuLogo} alt="" className='our-client' loading='lazy'/>
+      <div className="overlay">
+            <div className="overlay-text">
+            <p className='visit-client-site'>VISIT SITE</p> 
+            <p  className='site-visit-arrow'>&#8594;</p>
+            </div>
+           </div> 
+    </div>
+    </a>
+    <a href="https://www.knust.edu.gh/" target="_blank" >
+    <div  className="div5">
+      <img src={knustLogo} alt="" className='our-client' loading='lazy'/>
+      <div className="overlay">
+            <div className="overlay-text">
+            <p className='visit-client-site'>VISIT SITE</p> 
+            <p  className='site-visit-arrow'>&#8594;</p>
+            </div>
+           </div> 
+    </div>
+    </a>
+    <a href="https://www.goil.com.gh/" target="_blank" >
+    <div className="div6">
+      <img src={goilLogo} alt="" className='our-client' loading='lazy'/>
+      <div className="overlay">
+            <div className="overlay-text">
+            <p className='visit-client-site'>VISIT SITE</p> 
+            <p  className='site-visit-arrow'>&#8594;</p>
+            </div>
+           </div> 
+    </div>
+    </a>
+    <a href="https://stu.edu.gh/" target="_blank" >
+    <div className="div7">
+      <img src={stuLogo} alt=""className='our-client' loading='lazy' />
+      <div className="overlay">
+            <div className="overlay-text">
+            <p className='visit-client-site'>VISIT SITE</p> 
+            <p className='site-visit-arrow'>&#8594;</p>
+            </div>
+           </div> 
+    </div>
+    </a>
+   
+</div> 
+
+ <footer>
+        <div className="footer">
+        <div className='logo-footer'>
+          <img src={logo} alt="logo" />
+          <p className='logo-footer-paragraph'>Our mission is to be a first-class builder and our client’s first choice contractor and to exceed benchmark standards in quality of work done.</p>
+        </div>
+        <div className='footer-contact'>
+          <h3>Get In Touch</h3>
+          <p className="number-phone"> <a href="tel:0203325968">0203325968/0537192525</a> </p>
+          <p className="email"><a href="email:buildorconstruction@gmail.com">buildorconstruction@gmail.com</a></p>
+          <p className="location">Locate us: Opposite the Ghana Cooperative Credit Union Association, Asafo -Kumasi</p>
+        </div>
+        </div>
+        <hr />
+
+        <div className="copy-right">
+          <p className="right-text">
+           Buildora Construction (C) {year} ALL RIGHTS RESERVED | Developed By Andrews Naworagyere
+          </p>
+
+          <div className='footer-socials'>
+
+           <a href="#"> <img src= {facebook} alt="face" /></a>
+            <a href="#"> <img src= {instagram} alt="insta" /></a>
+            <a href="#"> <img src= {twitter} alt="twit" /> </a>
+            <a href="#"> <img src= {google} alt="goo" /></a> 
+            
+            </div>     
+        </div>
+
+       </footer>
+
  
 
  

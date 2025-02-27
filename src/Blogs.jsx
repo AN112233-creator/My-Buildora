@@ -107,7 +107,37 @@ function Blog (){
        {/*  <p className="subheading">AMBITIOUS CLIENTS</p>
         <h2 className="main-text">We have worked with great people.</h2> */}
     </div>  
+ <footer>
+        <div className="footer">
+        <div className='logo-footer'>
+          <img src={logo} alt="logo" />
+          <p className='logo-footer-paragraph'>Our mission is to be a first-class builder and our client’s first choice contractor and to exceed benchmark standards in quality of work done.</p>
+        </div>
+        <div className='footer-contact'>
+          <h3>Get In Touch</h3>
+          <p className="number-phone"> <a href="tel:0203325968">0203325968/0537192525</a> </p>
+          <p className="email"><a href="email:buildorconstruction@gmail.com">buildorconstruction@gmail.com</a></p>
+          <p className="location">Locate us: Opposite the Ghana Cooperative Credit Union Association, Asafo -Kumasi</p>
+        </div>
+        </div>
+        <hr />
 
+        <div className="copy-right">
+          <p className="right-text">
+           Buildora Construction (C) {year} ALL RIGHTS RESERVED | Developed By Andrews Naworagyere
+          </p>
+
+          <div className='footer-socials'>
+
+           <a href="#"> <img src= {facebook} alt="face" /></a>
+            <a href="#"> <img src= {instagram} alt="insta" /></a>
+            <a href="#"> <img src= {twitter} alt="twit" /> </a>
+            <a href="#"> <img src= {google} alt="goo" /></a> 
+            
+            </div>     
+        </div>
+
+       </footer>
 
   </>
   
