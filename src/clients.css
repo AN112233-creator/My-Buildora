@@ -55,7 +55,7 @@
   
   .black-nav-client{
     background-color: var(--UL-Bcolor);
-    transition: 1s ease-in-out;
+    transition: 0.7s ease-in-out;
    
   }
   
@@ -307,6 +307,7 @@
     font-size: 1.2rem;
     font-weight: lighter;
     margin-top: -130px;
+    letter-spacing: 2px;
 }
 
 .work-with{
