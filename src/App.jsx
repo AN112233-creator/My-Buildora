@@ -12,6 +12,7 @@ import Services from "./services";
 import Clients from "./Clients";
 import Contact from "./Contacts";
 import Blog from "./Blogs";
+import Team from "./Team";
 
 function App() {
   
@@ -27,6 +28,7 @@ function App() {
             <Route path="/clients" element={<Clients />} />
             <Route path="/contacts" element={<Contact />} />
             <Route path="/blogs" element={<Blog />} />
+            <Route path="/Team" element={<Team />} />
        
         
           </Routes>
