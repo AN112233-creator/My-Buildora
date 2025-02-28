@@ -113,7 +113,7 @@
     display: flex;
     gap: 30px;
     margin-top: 30px;
-     margin-left: 340px; 
+     margin-left: 400px; 
     margin-right: 0px;
   }  
   
@@ -212,7 +212,7 @@
     
   }
   .links:hover{
-    background-color: var(--UL-Bcolor);
+   /*  background-color: var(--UL-Bcolor); */
     transition: 0.7s ease;
     color: var(--Nav-active);
     
@@ -567,7 +567,7 @@ margin-top: 150px;
   
   
   
-  
+  /* 
     ul {
       position: absolute;
       top: 60px;
@@ -586,7 +586,7 @@ margin-top: 150px;
       margin-left: 0px;
       z-index: 10000000;
     } 
-  
+   */
    
   
     ul.open {

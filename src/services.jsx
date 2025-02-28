@@ -8,7 +8,9 @@ import  facebook from './assets/Logos/facebook-logo.png'
 import  twitter from './assets/Logos/x-logo.png'
 import  instagram from './assets/Logos/instagram-logo.png'
  import  google from './assets/Logos/google-plus.png' 
-
+ import  socials from './assets/Logos/social.png' 
+ import  socialsAlign from './assets/Logos/social-align.png' 
+ import  socialsWhite from './assets/Logos/social-mainw.png' 
 
 
 
@@ -55,6 +57,13 @@ function Services (){
             setIsHover(false);  
           };
 
+          const [isVisible, setIsVisible] = useState(false)
+
+          const toggleSocials = () => {
+           setIsVisible(!isVisible)
+           console.log('links are visible')
+          }
+
 
 
 
@@ -97,12 +106,21 @@ function Services (){
                     <div className="bar3"></div>
                     </div> 
     
-                    <div className={`links ${isOpen ? "active" : ""}`}>
+                    {/* <div className={`links ${isOpen ? "active" : ""}`}>
                       is
-                    </div>
+                    </div> */}
+                     <div className='toggle-social-links' onClick={toggleSocials}>
+                                     <img src={socialsWhite} alt="social" className={`links ${isOpen ? "active" : ""}`}/>
+                                    </div>
             </div>
     
           </nav>
+           <div className= {`socials-nav ${isVisible ? "links-visible" : ""}`}>
+                           <a href="#"> <img src= {facebook} alt="face" /></a>
+                           <a href="#"> <img src= {instagram} alt="insta" /></a>
+                           <a href="#"> <img src= {twitter} alt="twit" /> </a>
+                           <a href="#"> <img src= {google} alt="goo" /></a> 
+                           </div>
          
         
           <main className='main'>

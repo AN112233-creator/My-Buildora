@@ -8,7 +8,7 @@
   --font-family: "Roboto Condensed", serif;
   --font-size: 14px;
   --background-color: #f5f5f5;
-  --text-color: rgb(201, 201, 201);
+  --text-color: #c9c9c9;
   --text-color-Small-about:rgb(160, 160, 160);
   --HOVER-Color: rgb(255, 255, 255);
   --Nav-active: rgb(15, 15, 15);
@@ -77,7 +77,6 @@ nav{
 .black-nav{
   background-color: var(--Nav-active);
   transition: 1s ease-in-out;
- 
 }
 
 /* nav ul {
@@ -176,6 +175,7 @@ nav ul li a:hover {
   height: 35px;
   border: 1px solid var(--UL-Bcolor);
   display: grid;
+  padding: 4px;
   place-content: center;
   margin-top: -10px;
   cursor: pointer;
@@ -183,12 +183,41 @@ nav ul li a:hover {
   
 }
 .links:hover{
-  background-color: var(--UL-Bcolor);
+  /* background-color: var(--UL-Bcolor); */
   transition: 0.7s ease;
   color: var(--Nav-active);
   
 }
 
+.socials-nav {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+  position: fixed;
+  left: 96.7%;
+  top: 15%;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  transform: translateY(-8%); 
+  opacity: 0;
+ }
+
+ .socials-nav img{
+  width: 35px;
+  height: 35px;
+   background-color: #fffefe;
+  border: 1px solid white; 
+  padding: 4px;
+   
+
+ }
+
+ .links-visible{
+   transform: translateY(0); 
+    pointer-events: auto;
+  top: 15%;
+  opacity: 1;
+ 
+ }
 main{
   text-align: center;
   margin-top: 80px;
@@ -681,6 +710,12 @@ line-height: 20px;
     pointer-events: auto;
    
   }
+
+  .socials-nav {
+    left: 93.3%;
+  
+  
+   }
 
   
 
