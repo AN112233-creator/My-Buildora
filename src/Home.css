@@ -194,7 +194,7 @@ nav ul li a:hover {
   gap: 5px;
   flex-direction: column;
   position: fixed;
-  left: 96.7%;
+  left: 97%;
   top: 15%;
   transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
   transform: translateY(-8%); 
@@ -227,7 +227,7 @@ main{
   font-family: var(--font-family);
   justify-content: center;
   align-items: center;
-  padding: 130px 0;
+  padding: 170px 0;
  
 }
 
@@ -712,7 +712,7 @@ line-height: 20px;
   }
 
   .socials-nav {
-    left: 93.3%;
+    left: 92.8%;
   
   
    }

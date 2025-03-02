@@ -186,7 +186,7 @@
     color: var(--Nav-active);
     
   }
-  
+ /*  
   main{
     text-align: center;
     margin-top: 80px;
@@ -196,9 +196,9 @@
     font-family: var(--font-family);
     justify-content: center;
     align-items: center;
-    padding: 130px 0;
+    padding: 150px 0;
    
-  }
+  } */
   
   .exterior{
     text-transform: uppercase;
