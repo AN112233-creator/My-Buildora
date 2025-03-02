@@ -214,6 +214,17 @@ function Clients (){
            </div> 
     </div>
     </a>
+    <a href="https://www.goil.com.gh/" target="_blank" >
+    <div className="div6">
+      <img src={goilLogo} alt="" className='our-client' loading='lazy'/>
+      <div className="overlay">
+            <div className="overlay-text">
+            <p className='visit-client-site'>VISIT SITE</p> 
+            <p  className='site-visit-arrow'>&#8594;</p>
+            </div>
+           </div> 
+    </div>
+    </a>
    
 </div> 
 

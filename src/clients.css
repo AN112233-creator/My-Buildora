@@ -248,7 +248,7 @@
 }
 
 .background-text text {
-    font-size: 7.4rem;
+    font-size: 8rem;
     font-weight: bolder;
     fill: none;
      stroke: rgba(0, 0, 0, 0.090);
@@ -335,11 +335,16 @@
 
 .parent {
      display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 /*     grid-template-rows: repeat(12, 1fr); */
-   column-gap: 8px;
+   column-gap: 16px;
    row-gap: 16px;
-   margin: 40px 200px; 
+   /* margin: 40px 200px;  */
+   place-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+     margin-left: 200px; 
+     margin-right: 200px; 
   
 }
 
