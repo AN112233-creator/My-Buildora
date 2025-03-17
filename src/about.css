@@ -90,6 +90,7 @@
      top: 0;  
     font-family: var(--font-family);
     z-index: 1000000;
+    transition: 0.4s ease-in-out;
     
   
   } 

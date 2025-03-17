@@ -120,8 +120,8 @@ function Blog (){
             <span>L</span>
             <span>E</span>
         </div> */}  
-            <svg class="background-text">
-            <text  x="50%" y="50%" text-anchor="middle">BLOG</text>
+            <svg className="background-text">
+            <text  x="50%" y="50%" textAnchor="middle">BLOG</text>
         </svg> 
         <p className='Ambitious'>NEWSLETTER</p>
         <h2 className='work-with'>Here we share our ideas.</h2>

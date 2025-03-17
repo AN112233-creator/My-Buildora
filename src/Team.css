@@ -26,8 +26,49 @@
   overflow: visible;
 }
 
+
+.nav-active-team{
+   background-color: var(--UL-Bcolor);
+  transition: 0.3s ease-in-out; 
+ 
+ 
+ 
+}
+
+.white-nav{
+  background-color: var(--UL-Bcolor);
+  transition: 1s ease-in-out;
+}
+
 .our-expert-column{
   margin: 140px 100px;
+}
+
+.main-team{
+  text-align: center;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  font-family: var(--font-family);
+  justify-content: center;
+  align-items: center;
+  padding: 170px 0;
+ 
+}
+
+.about-our-team-team{
+  font-size: 1.4rem;
+  font-weight: lighter;
+  color: var(--HOVER-Color);
+}
+
+.we-are-based-team{
+  font-size: 3.3rem;
+  color: var(--HOVER-Color);
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -129,6 +170,23 @@
 
   .our-expert-column{
     margin: 90px 0px;
+  }
+
+  .main-team{
+    
+    padding: 170px 0;
+   
+  }
+
+  .about-our-team-team{
+    font-size: 1.2rem;
+    
+  }
+  
+  .we-are-based-team{
+    font-size: 2.4rem;
+    color: var(--HOVER-Color);
+    
   }
   
   

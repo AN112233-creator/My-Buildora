@@ -69,9 +69,9 @@ function Team (){
     const handleScroll = () => {
       const navbar = document.getElementById('navbar');
       if (window.scrollY > 0) {
-        navbar.classList.add('black-nav');
+        navbar.classList.add('white-nav');
       }  else {
-        navbar.classList.remove('black-nav');
+        navbar.classList.remove('white-nav');
       }
     };
 
@@ -94,7 +94,8 @@ function Team (){
   <>
  
   <div className="page">
-          <nav className={isOpen ? "nav-active" : ""} id='navbar'>
+  <nav className={`nav-team ${isOpen ? "nav-active-team" : ""}`} id='navbar'>
+     
     
               <a href="about.jsx" className='logo-link'>
             <div className='logo' >
@@ -102,30 +103,30 @@ function Team (){
               <p className={`logo-text ${isOpen ? "active" : ""}`}>Buildora Construction</p>
             </div>
             </a>
-            <ul className={isOpen ? "open" : ""}>
-              <li><Link to = "/">Home</Link></li>
+            <ul className={`unordered-list ${isOpen ? "open" : ""}`}>
+              <li><Link to = "/"className='nav-items' >Home</Link></li>
               <li> <Link to = "/about"/*  className= {`active ${isHover ? "" : ""}`} */ 
                onMouseEnter={handleMouseEnter}
-               onMouseLeave={handleMouseLeave}>About Us</Link></li>
-               <li  className= {`team ${isHover ? "OurTeam" : ""}`} onMouseEnter={handleMouseEnter}  onMouseLeave={handleMouseLeave}><Link  to= "/Team" className='active'> Our Team</Link></li>
-               <li className='show-small'><Link  to= "/Team" className='active'> Our Team</Link></li>
-              <li> <Link to = "/projects">Projects</Link></li>
-              <li><Link to = "/services">Services</Link></li>
-              <li><Link to = "/clients">Clients</Link></li>
-              <li><Link to = "/contacts">Contact us</Link></li>
-              <li><Link to = "/blogs">Blog</Link></li>
+               onMouseLeave={handleMouseLeave} className='nav-items'>About Us</Link></li>
+               <li  className= {`team  nav-items ${isHover ? "OurTeam" : ""}`} onMouseEnter={handleMouseEnter}  onMouseLeave={handleMouseLeave}><Link  to= "/Team" className='active' nav-items> Our Team</Link></li>
+               <li className='show-small'><Link  to= "/Team" className='active-client nav-items' > Our Team</Link></li>
+              <li> <Link to = "/projects" className='nav-items'>Projects</Link></li>
+              <li><Link to = "/services" className='nav-items'>Services</Link></li>
+              <li><Link to = "/clients" className='nav-items'>Clients</Link></li>
+              <li><Link to = "/contacts" className='nav-items'>Contact us</Link></li>
+              <li><Link to = "/blogs" className='nav-items'>Blog</Link></li>
             </ul>
     
             <div className="icons">
             
-                  <div className= {`menu-icon ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
+                  <div className= {`menu-icon-client ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
                     <div className="bar1"></div>
                     <div className="bar2"></div>
                     <div className="bar3"></div>
                     </div> 
     
-                     <div className='toggle-social-links' onClick={toggleSocials}>
-                                     <img src={socialsWhite} alt="social" className={`links ${isOpen ? "active" : ""}`}/>
+                     <div className='toggle-social-links ' onClick={toggleSocials}>
+                                     <img src={socials} alt="social" className={`links-client ${isOpen ? "active" : ""}`}/>
                                     </div>
             </div>
           
@@ -136,10 +137,10 @@ function Team (){
                            <a href="#"> <img src= {twitter} alt="twit" /> </a>
                            <a href="#"> <img src= {google} alt="goo" /></a> 
                            </div>
-          <main>
-         <h4 className='about-our-team'>ABOUT OUR TEAM</h4>
-         <p className='we-are-based'>We are based on collective work
-         <span className='and-share'>and shared knowledge</span></p>
+          <main className='main-team'>
+         <h4 className='about-our-team-team'>ABOUT OUR TEAM</h4>
+         <p className='we-are-based-team'>We are based on collective work
+         <span className='and-share-team'>and shared knowledge</span></p>
          </main>
           </div>
              

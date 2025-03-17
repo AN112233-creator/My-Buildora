@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
+
  import './contacts.css'
 import  logo from './assets/Logos/LOGO.png'
 
@@ -61,6 +62,8 @@ function Contact (){
              setIsVisible(!isVisible)
              console.log('links are visible')
             }
+
+
   
   
 
@@ -126,9 +129,92 @@ function Contact (){
          <p className='relation'>Let's establish relations : )</p>
         </main>
         </div> 
+        
+      <div className="contact-form-section">
+     <div>
+      <p className='contact-at-contact'>Contact</p>
+      <h3 className='start-new-project'>Let's start new project.</h3>
+      <p className='contact-text'>Now, as you were able to get a picture of who we are, it is up to you to contact us and lay the foundation for a new and successful business relationship. Our team consists</p>
+      <div className="contact-phone-and-email">
+      <div className='contact-phone-details'>
+      <div className="line-horizon-at-contact"></div>
+      <p className='phone-email'>PHONE</p>
+      <a href="tel:0203325968" className='phone-number'>0203325968</a>
+      <br />
+      <a href="tel:0203325968" className='phone-number'>0203325968</a>
+      </div>
 
-  <h1>Contact Page</h1>
-  <h2>Coming Soon!</h2>
+      <div className='contact-email-details'>
+      <div className="line-horizon-at-contact"></div>
+      <p className='phone-email'>EMAIL</p>
+      <a href="mailto:buildorconstruction@gmail.com" className='phone-number'>buildorconstruction@gmail.com</a>
+      </div>
+      </div>
+     </div>
+
+     <div className="contact-form">
+      <form action="">
+        <div className="inputs">
+        <input type="text" className='input-field' placeholder='Name' />
+        <br />
+        <input type="text" className='input-field' placeholder='Phone'/>
+        <br />
+        <input type="text" className='input-field' placeholder='example@gmail.com' />
+        </div>
+        <div className="text-submit">
+        <textarea name="" id="" className='text-field' placeholder='Message'/>
+        <input type="submit" className='submit-button' />
+        </div>
+
+      </form>
+     </div>
+     </div>
+
+      <div className="main-location">
+     <div>
+     <p className='contact-at-location'>LOCATIONS</p>
+     <h3 className='meet-us'>Meet Us in your City.</h3>
+     </div>
+
+     <div className='background-image'>
+      <div className='background-image-line'></div>
+      <p className='kum'>kumasi</p>
+      <p className='opposite-ghana'>Opposite the Ghana Cooperative Credit Union Association, Asafo -Kumasi</p>
+
+     </div>
+     </div>
+
+     <footer>
+             <div className="footer">
+             <div className='logo-footer'>
+               <img src={logo} alt="logo" />
+               <p className='logo-footer-paragraph'>Our mission is to be a first-class builder and our client’s first choice contractor and to exceed benchmark standards in quality of work done.</p>
+             </div>
+             <div className='footer-contact'>
+               <h3>Get In Touch</h3>
+               <p className="number-phone"> <a href="tel:0203325968">0203325968/0537192525</a> </p>
+               <p className="email"><a href="email:buildorconstruction@gmail.com">buildorconstruction@gmail.com</a></p>
+               <p className="location">Locate us: Opposite the Ghana Cooperative Credit Union Association, Asafo -Kumasi</p>
+             </div>
+             </div>
+             <hr />
+     
+             <div className="copy-right">
+               <p className="right-text">
+                Buildora Construction (C) {year} ALL RIGHTS RESERVED | Developed By Andrews Naworagyere
+               </p>
+     
+               <div className='footer-socials'>
+                <a href="#"> <img src= {facebook} alt="face" /></a>
+                 <a href="#"> <img src= {instagram} alt="insta" /></a>
+                 <a href="#"> <img src= {twitter} alt="twit" /> </a>
+                 <a href="#"> <img src= {google} alt="goo" /></a> 
+                 
+                 </div>     
+             </div>
+     
+            </footer>
+
 
   </>
   

@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 :root {
   --primary-color: #4f9edb;
   --secondary-color: #2ecc71;
@@ -17,14 +16,11 @@
   --UL-COLOR: rgb(78, 78, 78);
 }
 
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: var(--font-family);
-
- 
 }
 
 .Contacts-Landing-page{
@@ -42,31 +38,216 @@
 
   .contact-main{
     text-align: center;
-    margin-top: 0px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 14px;
     font-family: var(--font-family);
     justify-content: center;
     align-items: center;
-     padding: 190px 0; 
+     padding: 204px 0; 
    
   }
 
   .contact-us{
     text-transform: uppercase;
     font-size: 1rem;
-    font-weight: 200;
+     font-weight: 300; 
     color: var(--UL-Bcolor);
     letter-spacing: 4px;
   }
   
   .relation{
    color: var(--UL-Bcolor);
-    font-size: 3.7rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-bottom: 4rem;
   } 
+  .contact-form-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 140px 100px;
+  }
+
+  .contact-at-contact{
+    font-size: 1.07rem;
+    font-weight:300 ;
+    letter-spacing: 4px;
+    color: var(--Nav-active);
+    text-transform: uppercase;
+  }
+  
+  .start-new-project{
+    margin: 10px 0;
+    font-size: 4rem;
+    width: 14ch;
+    font-weight: bold;
+   
+  }
+
+  .contact-text{
+    width: 70ch;
+    color: var(--text-color-Small-about);
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  .contact-phone-and-email{
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  .phone-email{
+    margin-bottom: 30px;
+    font-size: 1rem;
+    color: black;
+  }
+  .phone-number{
+    text-decoration: none;
+    color: var(--text-color-Small-about);
+    font-size: 1.1rem;
+   
+   
+
+  }
+
+  .line-horizon-at-contact{
+    width: 80px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 40px;
+  }
+  form{
+    display: flex;
+    gap: 30px;
+  }
+  .input-field{
+    width: 300px;
+    height: 60px;
+    padding: 25px 20px;
+    font-size: 18px;
+    background-color: #eeeeee;
+    margin-bottom: 25px;
+    border: none;
+    transition: 0.4s ease;
+  }
+
+  .input-field:focus, .text-field:focus{
+    outline: none;
+    background-color: white;
+    border-bottom: 4px solid #259afa;
+    box-shadow: 1px 1px 4px #259afa ;
+    transition: 0.2s ease;
+    
+  }
+
+  .text-field{
+    width: 300px;
+    height: 230px;
+    resize: none;
+    background-color: #eeeeee;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    transition: 0.4s ease-in-out;
+
+  }
+  .text-submit{
+    display: flex;
+    flex-direction: column;
+  }
+  .submit-button{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+
+  .contact-at-location{
+    font-size: 1.07rem;
+    font-weight:300 ;
+    letter-spacing: 4px;
+    color: var(--Nav-active);
+    text-transform: uppercase;
+  }
+
+  .meet-us{
+    margin: 10px 0;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  .main-location{
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
+.background-image{
+  width: 400px;
+  height: 280px;
+  
+ /*  background-image: url(assets/Contact-Images/641ecf45924077.58416ffd1a9ac.jpg); */
+   /* background-image: url(assets/Contact-Images/641ecf45924077.58416ffd1a9ac.jpg);  */
+  background-color: rgb(235, 235, 235);
+  padding-left: 50px;
+  padding-top: 80px;
+   transition: 1s ease;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  background-blend-mode: multiply;
+}
+
+
+.background-image-line{
+  transition: 0.4s ease;
+  width: 80px;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.kum{
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: black;
+  text-transform: uppercase;
+}
+
+
+  .opposite-ghana{
+    width: 30ch;
+    line-height: 30px;
+    font-size: 18px;
+  }
+
+  .background-image:hover{
+    transition: 1s ease;
+   background-image: url(assets/Contact-Images/641ecf45924077.58416ffd1a9ac.jpg); 
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .background-image:hover .background-image-line{
+    background-color: white;
+    transition: 0.4s ease;
+    
+  }
+  .background-image:hover .kum{
+    color: white;
+    transition: 0.4s ease;
+    
+  }
+  .background-image:hover .opposite-ghana{
+    color: white;
+    transition: 0.4s ease;
+    
+  }
+
+
+  
 
 
   @media (max-width: 768px){

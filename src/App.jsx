@@ -19,7 +19,7 @@ function App() {
 
   return (
 
-        <Router>
+       <Router>
           <Routes>
             <Route path="" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -32,7 +32,7 @@ function App() {
        
         
           </Routes>
-        </Router>
+       </Router>
       );
     };
   
